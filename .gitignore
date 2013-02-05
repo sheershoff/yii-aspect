@@ -1,0 +1,4 @@
+log
+.htpasswd
+/nbproject/private/
+/cgi-bin

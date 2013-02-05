@@ -1,0 +1,14 @@
+order deny,allow
+allow from 195.191.141.237
+allow from 127.0.0.1
+deny from all
+
+
+RewriteEngine on
+
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+# otherwise forward it to index.php
+RewriteRule . index.php
+
