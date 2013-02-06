@@ -1,6 +1,6 @@
 [submodule "vendor/yiisoft/yii"]
 	path = vendor/yiisoft/yii
-	url = git://github.com/yiisoft/yii.git
+	url = https://github.com/yiisoft/yii.git
 [submodule "vendor/lisachenko/go-aop-php"]
 	path = vendor/lisachenko/go-aop-php
 	url = https://github.com/lisachenko/go-aop-php
