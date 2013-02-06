@@ -32,6 +32,6 @@ class ApplicationAspectKernel extends AspectKernel
      */
     protected function configureAop(AspectContainer $container)
     {
-        //$container->registerAspect(new TestMonitorAspect());
+        $container->registerAspect(new TestMonitorAspect());
     }
 }
