@@ -23,7 +23,7 @@ class TestMonitorAspect implements Aspect
      * Method that will be called before real method
      *
      * @param MethodInvocation $invocation Invocation
-     * @Before("execution(public ContactForm->*(*))")
+     * @Before("within(**)")
      */
     public function beforeMethodExecution(MethodInvocation $invocation)
     {
